@@ -11,6 +11,8 @@
 9.  sudo gpart resize -i2 md1
 10. sudo gpart resize -i1 md1s2
 11. sudo mdconfig -d -u 1
+12. Install u-boot for QEmu ARM, "u-boot-qemu-arm-2019.10 Cross-build das u-boot for model qemu-arm"
+sudo pkg install u-boot-qemu-arm-2019.10
 
 After everything is done you can start ARM emulator:
 
